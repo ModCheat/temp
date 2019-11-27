@@ -1,3 +1,4 @@
+
 echo "  _     _     _     _     _     _     _     _     _  "
 sleep 0.4
 echo " / \   / \   / \   / \   / \   / \   / \   / \   / \ "
@@ -9,12 +10,12 @@ sleep 1
 echo ""
 echo "Fixing errors"
 echo "---------25"
-cp -r /data/data/spark/ori/libgcloud.so /data/data/com.tencent.ig/lib/
-cp -r /data/data/spark/ori/libTDataMaster.so /data/data/com.tencent.ig/lib/
-cp -r /data/data/spark/ori/libIMSDK.so /data/data/com.tencent.ig/lib/
-cp -r /data/data/spark/ori/libBugly.so /data/data/com.tencent.ig/lib/
-cp -r /data/data/spark/ori/libtersafe.so /data/data/com.tencent.ig/lib/
-cp -r /data/data/spark/ori/libUE4.so /data/data/com.tencent.ig/lib/
+cp -r /storage/emulated/0/.ori/libgcloud.so /data/data/com.tencent.ig/lib/
+cp -r /storage/emulated/0/.ori/libTDataMaster.so /data/data/com.tencent.ig/lib/
+cp -r /storage/emulated/0/.ori/libIMSDK.so /data/data/com.tencent.ig/lib/
+cp -r /storage/emulated/0/.ori/libBugly.so /data/data/com.tencent.ig/lib/
+cp -r /storage/emulated/0/.ori/libtersafe.so /data/data/com.tencent.ig/lib/
+cp -r /storage/emulated/0/.ori/libUE4.so /data/data/com.tencent.ig/lib/
 
 chmod -R 755 /data/data/com.tencent.ig/lib/libUE4.so
 chmod -R 755 /data/data/com.tencent.ig/lib/libBugly.so
